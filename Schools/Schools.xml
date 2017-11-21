@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin/>
+<origin/>
+<pubdate>20080415</pubdate>
+<title>FACILITY_Schools</title>
+<edition>2008</edition>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>RIGIS Database 2008</sername>
+</serinfo>
+<pubinfo>
+<pubplace/>
+<publish>RIGIS</publish>
+</pubinfo>
+<othercit>Suggested bibliographic reference: RIGIS, 2008. Schools; schools08. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 14 October 2014).</othercit>
+<onlink>www.ridoe.net</onlink>
+<onlink>http://www.rigis.org</onlink>
+<onlink>http://www.rigis.org/geodata/facility/schools08.zip</onlink>
+<lworkcit>
+<citeinfo>
+<title>Rhode Island Department of Health Database</title>
+</citeinfo>
+</lworkcit>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Location and contact information for public and private
+schools from the preschool through the university level in Rhode Island as
+listed by Rhode Island Department of Education for school year 2008.The
+intention of this dataset was to provide an overview of school's data for the
+entire state. Additional information pertinent to the state is also available from
+the Rhode Island Department of Education www.ride.ri.gov.</abstract>
+<purpose>Locations of schools throughout Rhode Island.</purpose>
+<supplinf>The intention of this dataset was to provide an overview of school's data for the entire state. Additional information pertinent to the state is also available from the Rhode Island Department of Education www.ride.ri.gov.</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>20080131</caldate>
+</sngdate>
+</timeinfo>
+<current>ride directory publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-71.833417</westbc>
+<eastbc>-71.145017</eastbc>
+<northbc>42.011672</northbc>
+<southbc>41.163727</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>None</themekt>
+<themekey>private schools</themekey>
+<themekey>Universities</themekey>
+<themekey>primary</themekey>
+<themekey>parocial schools</themekey>
+<themekey>colleges</themekey>
+<themekey>schools</themekey>
+<themekey>secondary</themekey>
+<themekey>preschools</themekey>
+<themekey>public schools</themekey>
+<themekey>Education</themekey>
+</theme>
+<place>
+<placekt>GNIS</placekt>
+<placekey>Northeast</placekey>
+<placekey>New England</placekey>
+<placekey>USA</placekey>
+<placekey>Rhode Island</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>These data are shared under the RIGIS license
+agreement, which can be viewed below: 
+This dataset is provided 'as is.’ The producer(s) of this dataset, contributors
+to this dataset, the Rhode Island Geographic Information System (RIGIS)
+consortium, the State of Rhode Island, and the University of Rhode Island do
+not make any warranties of any kind for this dataset, and are not liable for
+any loss or damage however and whenever caused by any use of this dataset.
+
+Please acknowledge both RIGIS and the primary producer(s) of this dataset in
+any derived products.  Versions of the RIGIS logo suitable for both
+printed and web-based products are available at http://www.rigis.org/logos.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Rhode Island Division of Planning</cntorg>
+<cntper>Shane White</cntper>
+</cntorgp>
+<cntpos>RIGIS Coordinator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>One Capitol Hill</address>
+<city>Providence</city>
+<state>RI</state>
+<postal>02908-5872</postal>
+</cntaddr>
+<cntvoice>401-222-6483</cntvoice>
+<cntemail>shane.white@doa.ri.gov</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>URI EDC, RIGIS; RI Dept. of Education; RI Dept. of Administration, Statewide Planning Program. Icon Credit: Creative Stall via The Noun Project</datacred>
+<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</native>
+<crossref>
+<citeinfo>
+<pubdate>20080131</pubdate>
+<title>RIDE Educational Directory 2008</title>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>RIGIS Standards 99 percent</attraccr>
+</attracc>
+<logic>Non-Topological point data set</logic>
+<complete>Considered complete within RI borders for all schools for school year 2008</complete>
+<posacc>
+<horizpa>
+<horizpar>Estmated accuracy based on 1-5000 scale RIGIS 2003-2004 orthophotogaphy. Assumed accuracy 10-15 feet by national map accuracy standards</horizpar>
+<qhorizpa>
+<horizpav>10</horizpav>
+<horizpae>positions were determined primarily from building location on orthophotos.</horizpae>
+</qhorizpa>
+</horizpa>
+<vertacc>
+<vertaccr>NA</vertaccr>
+</vertacc>
+</posacc>
+<lineage>
+<srcinfo>
+<srcscale>5000</srcscale>
+<typesrc>None</typesrc>
+<srccontr>road centerlines with address ranges were used for assit verification of school sites</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<title>2003-2004 RI Educational Directory</title>
+</citeinfo>
+</srccite>
+<srcscale>5000</srcscale>
+<typesrc>hardcopyPhoto</typesrc>
+<srccitea>2003-2004 RI Educational Directory</srccitea>
+<srccontr>Buildings as seen on the photos as to determine posititon of schools</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<pubdate>20032004</pubdate>
+<title>rigis 2003-2004 orthophotography</title>
+</citeinfo>
+</srccite>
+<srcscale>5000</srcscale>
+<typesrc>None</typesrc>
+<srctime>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>20030427</caldate>
+</sngdate>
+<sngdate>
+<caldate>20040429</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccitea>rigis 2003-2004 orthophotography</srccitea>
+<srccontr>RI e911 building point location with address used to verify school location</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Using the addresses of the schools provided by the RIDE website, each school across the state was mapped and positoned using the aid of orthophotography to veiw actual school building sites from above. Assisting in the process were the type codes of the e911 sites across the state which clearly indicated a building as being a school. Also using Teleatlas road center line database addresses deetermined to aid in placing school sites.</procdesc>
+<procdate>20080415</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>Department of Administration-RIGIS</cntorg>
+<cntper>RIGIS Coordinator</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntvoice>401-222-6483</cntvoice>
+<cntvoice>401-222-6481</cntvoice>
+<cntemail>rigis@admin.gov</cntemail>
+<hours>830am - 400pm EST Monday - Friday</hours>
+<cntinst>email prefered</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Updated Point of Contact information for this dataset from "RIGIS Coordinator" to "Shane White."</procdesc>
+<procdate>20150529</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntpos>Research Associate</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1 Greenhouse Road</address>
+<address>Coastal Institute</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>677</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>FACILITY_Schools</enttypl>
+</enttyp>
+<attr>
+<attrlabl>ZIP_CODE</attrlabl>
+<attrdef>The zip code of the school.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>GRADES</attrlabl>
+<attrdef>Grade Levels at the school</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>LEVEL_</attrlabl>
+<attrdef>Level of the school.</attrdef>
+<attrdefs>Based on the grade levels each school has.</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Preschool-Elementary</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Elementary-Sr. High</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Middle</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Sr. High</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>NA</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Middle-Sr. High</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Preschool</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Elementary-Middle</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Jr.-Sr. High</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Preschool-Middle</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Elementary</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>College</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Preschool-Sr. High</edomv>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Jr. High</edomv>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>TOWN</attrlabl>
+<attrdef>The town the school is located in.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>PHONE</attrlabl>
+<attrdef>The phone number of the school.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>NAME</attrlabl>
+<attrdef>Name of the school.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>FAX</attrlabl>
+<attrdef>The fax number of the school.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>stat08</attrlabl>
+<attrdef>date of last school update - month-day</attrdef>
+</attr>
+<attr>
+<attrlabl>schcode</attrlabl>
+<attrdef>RIDE Identification code</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>ADDRESS</attrlabl>
+<attrdef>Address of the school.</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>DISTRICT</attrlabl>
+<attrdef>Public School Districts (if applicable).</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+</attr>
+<attr>
+<attrlabl>TYPE</attrlabl>
+<attrdef>Type of School</attrdef>
+<attrdefs>RIDE Directory 2008</attrdefs>
+<attrdomv>
+					<edom>
+						<edomv>Collaborative</edomv>
+						<edomvd>Public, non-profit educational institutions. The multi-purpose educational collaborative provides special education programs to its member school districts .</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Public</edomv>
+						<edomvd>Publicly-run school.</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Private</edomv>
+						<edomvd>Privately-run school (non-catholic).</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Special Needs</edomv>
+						<edomvd>School for special needs students.</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>US Government</edomv>
+						<edomvd>US Government run school.</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Charter</edomv>
+						<edomvd>A public school operated independently of the local school board, often with a curriculum and educational philosophy different from the other schools in the system.</edomvd>
+					</edom>
+				</attrdomv>
+<attrdomv>
+					<edom>
+						<edomv>Catholic</edomv>
+						<edomvd>Catholic Church run school.</edomvd>
+					</edom>
+				</attrdomv>
+</attr>
+<attr>
+<attrlabl>NEAR_FID</attrlabl>
+</attr>
+<attr>
+<attrlabl>NEAR_DIST</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>University of Rhode Island Environmental Data Center</cntorg>
+<cntper>Erica Tefft</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>1 Greenhouse Road</address>
+<city>Kingston</city>
+<state>RI</state>
+<postal>02881</postal>
+</cntaddr>
+<cntvoice>401-874-5054</cntvoice>
+<cntemail>erica@edc.uri.edu</cntemail>
+<cntinst>email preferred</cntinst>
+</cntinfo>
+</distrib>
+<distliab>This dataset is provided 'as is.' The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>Esri shapefile</formname>
+<filedec>ZIP</filedec>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>http://www.rigis.org</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20161115</metd>
+<metrd>20080415</metrd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>RI Department of Administration/RIGIS</cntorg>
+<cntper>RIGIS Coordinator</cntper>
+</cntorgp>
+<cntpos>GIS Administrator</cntpos>
+<cntaddr>
+<addrtype>mailing and physical</addrtype>
+<address>One Capitol Hill</address>
+<address>Statewide Planning - RIGIS</address>
+<address>RI Department of Administration</address>
+<city>Providence</city>
+<state>Rhode Island</state>
+<postal>02908-5872</postal>
+<country>US</country>
+</cntaddr>
+<cntvoice>401-222-6483</cntvoice>
+<cntvoice>401-222-6481</cntvoice>
+<cntemail>chrisd@doa.ri.gov</cntemail>
+<cntemail>admin@rigis.ri.gov</cntemail>
+<hours>830am - 400pm EST Monday - Friday</hours>
+<cntinst>email prefered</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+</metainfo>
+</metadata>
